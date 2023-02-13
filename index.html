@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+<body>
+    
+    <!-- nav -->
+    <div class="container">
+        <div class="nav">
+           <div id="nav-row-1">
+                <h1>Profile</h1>
+            </div>
+            
+            <div id="nav-row-2">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profile">My Profile</a></li>
+                    <li><a href="#connections">Find Connections</a></li>
+                </ul>       
+            </div>
+            
+            <div id="nav-row-3">
+                <button id="logout">Sign Out</button>
+            </div>
+        
+        </div>
+    </div>
+    
+<div class="all-div">
+    <!-- card #1 of Main div -->
+    <div class="main">
+        <div class="card">
+            <div class="card-color"></div>
+            <div class="profile-img">
+                <img src="icons/user-circle.png" alt="user-icon">
+            </div>
+         
+            <h1>
+                <label id="profile-name">Zyrus Hiyao</label>
+            </h1>
+            
+            <div id="profile-location">
+                <img src="icons/map-marker.png" alt="map-icon">
+                <label>Philippines</label>
+            </div>
+
+            <div id="bio">
+                <ul>
+                    <li>Front-end Developer</li>
+                    <li>Software Engineer</li>
+                    <li>Problem Solver</li>
+                    <li>Master of Puppets!</li>
+                </ul>
+            </div>
+
+            <div class="btn-container">
+                     <!-- did not use the gear.png because it won't fit on the design theme -->
+                <button id="edit-Btn">&#9881; Edit Profile</button>
+            </div>
+            
+        </div>
+
+        <!-- card #2 of Main div -->
+        <!-- .card-2 is the main box format -->
+        <div class="card-format">
+            <div class="box-section">
+                <h3>Education</h3>
+            </div>
+
+            <div class="card-2-content">
+                <label id="school">Coding Dojo - Full stack Bootcamp</label>
+            <br>
+                <label id="school-year">Feb 2023 ~ June 2023</label>
+            <br>
+                <p>Full Stack Java Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-side">
+            <!-- card #1 on side div -->
+            <div class="card-format">
+                    <div class="box-section">
+                        <h3><span>2</span> Connection Request</h3>
+                    </div>
+
+                    <div class="friend-req">
+                        <div class="friend-group">    
+                            <div class="user-photo">
+                                <img src="images/todd-s.jpg" alt="todd img">
+                            </div>
+                            
+                            <div class="req-names">
+                                <label>Todd E</label>
+                            </div>
+                            
+                            <div class="req-icon">
+                                <img src="icons/accept-circle.png" alt="accept request icon" class="accept">
+                                <img src="icons/close-circle.png" alt="decline request icon" class="decline">
+                            </div>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="friend-group">
+                            <div class="user-photo">
+                                <img src="images/phil-s.jpg" alt="phil img">
+                            </div>
+                            
+                            <div class="req-names">
+                                <label>Phil K</label>
+                            </div>
+
+                            <div class="req-icon">
+                                <img src="icons/accept-circle.png" alt="accept request icon" class="accept">
+                                <img src="icons/close-circle.png" alt="decline request icon" class="decline">
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+            
+            <!-- main-size 2nd card -->
+            <div class="card-format connection-card">
+                <div class="box-section">
+                    <h3><span>500+</span> Your Connections</h3>
+                </div>
+
+                <div class="friend-group">    
+                    <div class="user-photo">
+                        <img src="images/adrien-s.jpg" alt="adrien img">
+                    </div>
+                    
+                    <div class="req-names">
+                        <label>Adrien D</label>
+                    </div>
+                </div>
+                
+                <hr>
+
+                <div class="friend-group">    
+                    <div class="user-photo">
+                        <img src="images/anne-s.jpg" alt="anne img">
+                    </div>
+                    
+                    <div class="req-names">
+                        <label>Anne J</label>
+                    </div>
+                </div>
+                
+                <hr>
+
+                <div class="friend-group">    
+                    <div class="user-photo">
+                        <img src="images/alayne-s.jpg" alt="alayne img">
+                    </div>
+                    
+                    <div class="req-names">
+                        <label>Alayne T</label>
+                    </div>
+                </div>
+                
+                <hr>
+
+                <div class="friend-group">    
+                    <div class="user-photo">
+                        <img src="images/arry-s.jpg" alt="arry img">
+                    </div>
+                    
+                    <div class="req-names">
+                        <label>Arry Y</label>
+                    </div>
+                </div>
+
+                <div id="view-more">
+                    <div id="vm-content">
+                        <a href="#view">View More</a>
+                    </div>
+                </div>
+
+            </div>
+
+        
+    </div>
+
+</div>
+   
+</body>
+</html>
